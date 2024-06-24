@@ -16,7 +16,15 @@
 docker-compose up -d
 ```
 
-5. restore DB with seed
+5. set the .env
+
+6. run the app
+
+```
+yarn start:dev
+```
+
+7. restore DB with seed
 
 ```
 http://localhost:8080/api/seed
